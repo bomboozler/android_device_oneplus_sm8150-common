@@ -4,8 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
+
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -26,6 +28,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key-calibrate
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Atrace
 PRODUCT_PACKAGES += \
