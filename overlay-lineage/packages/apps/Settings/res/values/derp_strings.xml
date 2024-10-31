@@ -13,6 +13,6 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string name="maintainer">Maintainer</string>
-    <string name="maintainer_name" translatable="false">Bomboozler & P.A.N.Z.</string>
+    <string name="maintainer_name" translatable="false">Bomboozler &amp; P.A.N.Z.</string>
     <string name="maintainer_telegram" translatable="false">https://github.com/bomboozler</string>
 </resources>
