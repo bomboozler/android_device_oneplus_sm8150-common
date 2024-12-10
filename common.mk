@@ -14,6 +14,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+	RemovePackages
+
 PRODUCT_PACKAGES += \
     otapreopt_script
 
