@@ -383,3 +383,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
+
+# Derpfest build type
+DERPFEST_BUILD_TYPE := Offical
