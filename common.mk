@@ -4,17 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DERP_VERSION_APPEND_TIME_OF_DAY=true
-EXTRA_UDFPS_ICONS=true
-TARGET_NOT_USES_BLUR=true
-
-# Remove Packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
-# ViPER4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
@@ -401,3 +390,13 @@ $(call inherit-product, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
 
 # Derpfest build type
 DERPFEST_BUILD_TYPE := Offical
+#DERP_VERSION_APPEND_TIME_OF_DAY=true
+#EXTRA_UDFPS_ICONS=true
+#TARGET_NOT_USES_BLUR=true
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)

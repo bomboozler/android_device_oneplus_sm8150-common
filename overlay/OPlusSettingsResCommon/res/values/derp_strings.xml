@@ -12,7 +12,5 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="maintainer">Maintainer</string>
-    <string name="maintainer_name" translatable="false">Bomboozler and P.A.N.Z.</string>
-    <string name="maintainer_telegram" translatable="false">https://github.com/bomboozler</string>
+    <string name="derpfest_maintainer" translatable="false">Bomboozler and P.A.N.Z.</string>
 </resources>
