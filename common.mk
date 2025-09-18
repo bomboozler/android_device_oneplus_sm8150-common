@@ -399,3 +399,6 @@ PRODUCT_PACKAGES += \
 
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# Fix OPlusAlertSlider Overlay not building
+TARGET_DISABLE_EPPE := true
