@@ -23,8 +23,7 @@ PRODUCT_PACKAGES += \
     tri-state-key-calibrate
 
 PRODUCT_PACKAGES += \
-    OPlusSystemUIOverlay \
-    OPlusAlertSliderOverlay
+    OPlusSystemUIOverlay 
 
 # Audio
 PRODUCT_PACKAGES += \
